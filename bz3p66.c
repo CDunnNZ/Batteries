@@ -73,7 +73,7 @@ int main(int argc, char* argv[])
 	// version 6.04: initialise dQ... duh.
     float version = 6.04; 
     if (argc<14+1 || argc>17+1) { // ??
-        fprintf(stderr,"bz3p66 V%.2f jbs, Dec 2020 -> Oct 2021\n", version);
+        fprintf(stderr,"bz3p66 V%.2f jbs&cjd, Dec 2020 -> Oct 2021\n", version);
         fprintf(stderr,"Battery Z measurement with triphasic pulses via Prologix/Fenrir GPIB-USB & 66332A.\n");
         fprintf(stderr,"Usage: bz3p66 USB Vmin Vmax Imax dQmax ncyc fmin fmax Xcyc Pf Pw Ip tr baseName [Addr [dftp [ff]]]\n");
         fprintf(stderr,"where-  USB is the rPi USB address (/dev/ttyUSB0, /dev/ttyACM0, etc);\n");
