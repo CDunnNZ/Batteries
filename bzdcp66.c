@@ -121,7 +121,7 @@ int main(int argc, char* argv[])
 	// version 6.21: allow zero Idc
     float version = 6.21; 
     if (argc<12+1 || argc>14+1) { // ??
-        fprintf(stderr,"bzdcp66 ------------  V%.2f jbs Dec 2020 -> Nov 2021\n", version);
+        fprintf(stderr,"bzdcp66 ------------  V%.2f jbs&cjd Dec 2020 -> Nov 2021\n", version);
         fprintf(stderr,"Battery Z measurement with dc, via Prologix/Fenrir GPIB-USB & 66332A, optional DFT.\n");
         fprintf(stderr,"Usage: bzdcp66 USB Vmin Vmax Imax dQmax ncyc fmin fmax Xcyc Idc fdc baseName [Addr [dftp]]\n");
         fprintf(stderr,"where-  USB is the rPi USB address (/dev/ttyUSB0, /dev/ttyACM0, etc);\n");
