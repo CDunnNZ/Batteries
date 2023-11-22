@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
     float version = 1.08;
 
     if (argc<13+1 || argc>15+1) { // ??
-        fprintf(stderr,"bcp66 V%.2f jbs Nov 2020, June 2021, Sep 2021\n", version);
+        fprintf(stderr,"bcp66 V%.2f jbs&cjd Nov 2020, June 2021, Sep 2021\n", version);
         fprintf(stderr,"Battery Cycler via Prologix gpib to HP/Agilent 66332A.\n");
         fprintf(stderr,"%d parameters is illegal.\n", argc-1);
         fprintf(stderr,"Usage: bcp66 USB Vmax Vmin Ich Idis I+end I-end tdwell+ tdwell- ncyc Qfinal tfinal baseName [fsmax [Addr]]\n");
